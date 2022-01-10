@@ -48,7 +48,7 @@ for await (const req of server) {
   await req.respond({ status: 200, body: text, headers: headers})
 
   } else {
-    var text = "HenryProxyAPI, just request a url for a proxy to it."
+    var text = "HenryProxyAPI, just request a url for a proxy to it. Still WIP."
     await req.respond({ status: 200, body: text, headers: headers})
   }
   
