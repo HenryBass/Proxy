@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "access-control-allow-origin": "*",
+    "etag": "\"1dc16e2f5b8041945315befdea836626\"",
+    "content-length": "1614",
+    "date": "Wed, 05 Jan 2022 22:23:29 GMT",
+    "last-modified": "Tue, 27 Oct 2020 15:01:24 GMT",
+    "x-amz-request-id": "TF9YMRWXA1RK5SXE",
+    "cache-control": "public, max-age=31536000, immutable",
+    "content-type": "application/typescript; charset=utf-8",
+    "x-amz-id-2": "z7o+ThgmX3dLtJ7wAHqv8Krl2L3E+QbuwxtrPD56x3a31ldwYRsmojuNVMfc/DrfS21prgTRGvI=",
+    "server": "deploy/us-central1-b",
+    "x-amz-version-id": "RWHBo.JEZu3GKv5uNCfKL1KGJSO.yRgl"
+  },
+  "url": "https://deno.land/std@0.75.0/async/pool.ts"
+}
