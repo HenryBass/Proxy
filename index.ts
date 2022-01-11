@@ -9,20 +9,35 @@ for await (const req of server) {
   try {
 
   var url = req.url
-  console.log(url)
 
   let headers = new Headers()
 
   if (url !== "/") {
   console.log("Directing to site...")
+
+  console.log(req.url)
+  var res = await fetch(req.url);
   
-  if (url.includes)
-  var res = await fetch("https://" + req.url);
+
+  /*
+   let encoded = encodeURI(url);
+   console.log(encoded)
+   var res = await fetch(encoded);
+   */
 
   console.log("https://denoproxy.henrybass.repl.co" + req.url + " Fetching...")
 
   console.log("Site fetched.")
   console.log(res)
+  console.log(res.url)
+  /*
+  fetch('img.jpg')
+  .then(response => response.blob())
+  .then(blob => {
+  const objectURL = URL.createObjectURL(blob);
+  text = objectURL;
+});
+*/
   var text = await res.text();
 
   /*
